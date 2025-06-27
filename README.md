@@ -43,8 +43,6 @@ public class CubeGameController : MonoBehaviour
 
     public void SelectCube(int index)
     {
-        Debug.Log("Pressed: " + index); 
-
         cube1.useGravity = index != 1;
         cube2.useGravity = index != 2;
         cube3.useGravity = index != 3;
